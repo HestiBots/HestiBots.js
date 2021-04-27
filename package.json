@@ -1,0 +1,30 @@
+{
+  "name": "HestiBots",
+  "version": "1.0.0",
+  "description": "The official HestiBots API wrapper for NodeJS",
+  "main": "./lib/hestibots.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules ./lib/hestibots.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HestiBots/HestiBots.js.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bots",
+    "hesti",
+    "HestiBots"
+  ],
+  "bugs": {
+    "url": "https://github.com/HestiBots/HestiBots.js/issues"
+  },
+  "homepage": "https://github.com/HestiBots/HestiBots.js#readme",
+}
