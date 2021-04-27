@@ -2,7 +2,7 @@
 The official [HestiBots](https://hestibots.xyz) API wrapper for Node.js
 
 ## Installation
-Simply run `npm i boats.js`
+Simply run `npm i hestibots.js`
 
 ## Usage
 Posting Bot Server Count:
@@ -22,7 +22,7 @@ Getting Bot Info:
 const HestiClient = require('hestibots.js');
 const Hesti = new HestiClient('API Key');
 
-Boats.Hesti('Bot ID').then((bot) => {
+Hesti.getBot('Bot ID').then((bot) => {
     console.log(bot);
 }).catch(err => {
     console.error(err);
@@ -34,7 +34,7 @@ Getting User Info:
 const HestiClient = require('hestibots.js');
 const Hesti = new HestiClient('API Key');
 
-    Boats.getUser('User ID').then((user) => {
+Hesti.getUser('User ID').then((user) => {
     console.log(user);
 }).catch(err => {
     console.error(err);

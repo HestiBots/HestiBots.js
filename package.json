@@ -1,18 +1,15 @@
 {
-  "name": "HestiBots",
-  "version": "1.0.0",
+  "name": "hestibots.js",
+  "version": "1.0.2",
   "description": "The official HestiBots API wrapper for NodeJS",
-  "main": "./lib/hestibots.js",
-  "type": "module",
+  "main": "lib/hestibots.js",
   "scripts": {
-    "start": "node --experimental-json-modules ./lib/hestibots.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
-  "engines": {
-    "node": "14.x"
-  },
+  "author": "AibersonDev",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HestiBots/HestiBots.js.git"
@@ -26,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/HestiBots/HestiBots.js/issues"
   },
-  "homepage": "https://github.com/HestiBots/HestiBots.js#readme",
+  "homepage": "https://github.com/HestiBots/HestiBots.js#readme"
 }
