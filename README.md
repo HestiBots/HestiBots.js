@@ -11,7 +11,7 @@ const HestiClient = require('hestibots.js');
 const Hesti = new HestiClient('API Key');
 
 Hesti.postStats('Bot ID', SERVER_COUNT, USER_COUNT).then((post) => {
-    console.log(post.success);
+    console.log(post);
 }).catch(err => {
     console.error(err);
 });
